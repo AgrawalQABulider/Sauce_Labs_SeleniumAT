@@ -16,4 +16,3 @@ I have created testng.xml file to run all testcases on one click.
 
 Tool used:- Eclipse
 Langauage used:- Java
-
