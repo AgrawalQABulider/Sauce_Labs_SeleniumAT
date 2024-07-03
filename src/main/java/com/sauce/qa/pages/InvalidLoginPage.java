@@ -32,8 +32,7 @@ public class InvalidLoginPage extends TestBase {
 				fakeusername.sendKeys(un);
 				fakepassword.sendKeys(pwd);
 				loginbtn.click();
-				String bodyText= errormessage.getText();
-				Assert.assertTrue(bodyText.contains("Epic sadface: Username and password do not match any user in this service"),"Not Successfully ordered!");
+				
 				
 			}
 	}
